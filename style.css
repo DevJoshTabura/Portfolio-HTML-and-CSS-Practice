@@ -1,0 +1,53 @@
+.title-background{
+    background-image: url('img/restaurant.jpg');
+    background-size: cover; /* or 'contain' */
+    background-repeat: no-repeat;
+    background-position: center center;  
+    height: 100vh;
+}
+
+#container{
+    height: 100vh;
+}
+
+.container > h1{
+    color: #262d3d;
+    font-family: "Roboto", sans-serif;
+    font-size: 5rem;
+}
+
+.container > div > p{
+    font-family: "Open Sans", sans-serif;
+    color: 
+    #455065;
+    font-size: 3rem;
+}
+
+#font{
+    font-family: "Roboto", sans-serif;
+    font-size: 5rem;
+    color: rgb(37, 150, 190);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns:1fr,;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+}
+
+.card-body p{
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+    color: #262d3d;;
+}
+
+footer{
+    background-image: url('img/restaurant.jpg');
+    background-size: cover; /* or 'contain' */
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100px;
+}
+
+
